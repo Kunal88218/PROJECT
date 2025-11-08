@@ -1,1 +1,207 @@
+/* --- Global Reset and Typography (Warm & Energetic Scheme) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc; /* New: Near White Background */
+    color: #34495e; /* Dark slate blue text color (Kept for contrast) */
+}
 
+a {
+    color: #e67e22; /* New: Pumpkin Orange link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #c0392b; /* Darker red-orange on hover */
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: #9b59b6; /* New: Deep Purple heading color */
+}
+
+/* --- Header and Sticky Navigation --- */
+header {
+    background-color: #ffffff; /* Clean white header */
+    color: #34495e;
+    padding: 15px 0; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #9b59b6; /* Purple title */
+}
+
+header p {
+    font-size: 0.9em;
+    color: #607d8b; 
+    margin-top: 5px;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #34495e;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #e67e22; /* Orange hover color */
+    text-decoration: none;
+}
+
+/* --- Main Layout and Content Wrapper --- */
+main {
+    padding: 30px 20px;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+#content-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    gap: 30px; 
+}
+
+/* --- Hero Section - High Impact --- */
+#hero {
+    /* New: Soft gradient with a hint of warm pink */
+    background: linear-gradient(135deg, #fcebeb 0%, #ffffff 100%); 
+    padding: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 12px;
+    border-left: 6px solid #e67e22; /* New: Orange left border */
+}
+
+#hero h2 {
+    color: #9b59b6; /* Purple heading */
+    font-size: 2.2em;
+    margin-top: 0;
+}
+
+/* Call to Action Button */
+#hero a {
+    display: inline-block;
+    background-color: #c0392b; /* New: Crimson Red for action */
+    color: white;
+    padding: 12px 30px;
+    margin-top: 25px;
+    border-radius: 50px; 
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(192, 57, 43, 0.4);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#hero a:hover {
+    background-color: #a93226;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+/* --- Key Tips Section - Article Cards --- */
+#key-tips {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin-bottom: 30px;
+}
+
+#key-tips h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1 1 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); 
+    transition: box-shadow 0.3s, transform 0.3s;
+    border-top: 4px solid #1abc9c; /* New: Teal accent for importance */
+}
+
+article:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px); 
+}
+
+article h3 {
+    color: #1abc9c; /* Teal accent heading */
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+article a {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #e67e22; /* Orange link */
+}
+
+/* --- Sidebar Styling --- */
+#sidebar {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#sidebar h3 {
+    color: #e67e22; /* Orange sidebar heading */
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Call to Action Box in Sidebar */
+.cta-box {
+    padding: 25px;
+    background-color: #f7e6ff; /* New: Very light purple callout box */
+    border: 1px solid #d8bfd8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cta-box h4 {
+    color: #9b59b6; /* Purple */
+    margin-top: 0;
+}
+
+.cta-box button {
+    width: 90%;
+    padding: 10px;
+    background-color: #9b59b6; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold
