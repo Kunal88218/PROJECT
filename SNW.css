@@ -1,31 +1,31 @@
-/* --- Global Reset and Typography (Warm & Energetic Scheme) --- */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fcfcfc; /* New: Near White Background */
-    color: #34495e; /* Dark slate blue text color (Kept for contrast) */
+    background-color: #fcfcfc; 
+    color: #34495e; 
 }
 
 a {
-    color: #e67e22; /* New: Pumpkin Orange link color */
+    color: #e67e22; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #c0392b; /* Darker red-orange on hover */
+    color: #c0392b; 
     text-decoration: underline;
 }
 
 h2, h3 {
-    color: #9b59b6; /* New: Deep Purple heading color */
+    color: #9b59b6; 
 }
 
-/* --- Header and Sticky Navigation --- */
+
 header {
-    background-color: #ffffff; /* Clean white header */
+    background-color: #ffffff; 
     color: #34495e;
     padding: 15px 0; 
     text-align: center;
@@ -39,7 +39,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2em;
-    color: #9b59b6; /* Purple title */
+    color: #9b59b6; 
 }
 
 header p {
@@ -48,7 +48,7 @@ header p {
     margin-top: 5px;
 }
 
-/* Navigation Links */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -66,12 +66,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f0f0f0; /* Light gray background on hover */
-    color: #e67e22; /* Orange hover color */
+    background-color: #f0f0f0; 
+    color: #e67e22; 
     text-decoration: none;
 }
 
-/* --- Main Layout and Content Wrapper --- */
+
 main {
     padding: 30px 20px;
     max-width: 1200px; 
@@ -84,27 +84,27 @@ main {
     gap: 30px; 
 }
 
-/* --- Hero Section - High Impact --- */
+
 #hero {
-    /* New: Soft gradient with a hint of warm pink */
+
     background: linear-gradient(135deg, #fcebeb 0%, #ffffff 100%); 
     padding: 60px;
     margin-bottom: 30px;
     text-align: center;
     border-radius: 12px;
-    border-left: 6px solid #e67e22; /* New: Orange left border */
+    border-left: 6px solid #e67e22; 
 }
 
 #hero h2 {
-    color: #9b59b6; /* Purple heading */
+    color: #9b59b6;
     font-size: 2.2em;
     margin-top: 0;
 }
 
-/* Call to Action Button */
+
 #hero a {
     display: inline-block;
-    background-color: #c0392b; /* New: Crimson Red for action */
+    background-color: #c0392b; 
     color: white;
     padding: 12px 30px;
     margin-top: 25px;
@@ -121,7 +121,7 @@ main {
     text-decoration: none;
 }
 
-/* --- Key Tips Section - Article Cards --- */
+
 #key-tips {
     display: flex;
     gap: 20px;
@@ -145,7 +145,7 @@ article {
     flex: 1 1 300px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); 
     transition: box-shadow 0.3s, transform 0.3s;
-    border-top: 4px solid #1abc9c; /* New: Teal accent for importance */
+    border-top: 4px solid #1abc9c; 
 }
 
 article:hover {
@@ -154,7 +154,7 @@ article:hover {
 }
 
 article h3 {
-    color: #1abc9c; /* Teal accent heading */
+    color: #1abc9c; 
     margin-top: 0;
     font-size: 1.3em;
 }
@@ -164,10 +164,10 @@ article a {
     margin-top: 15px;
     font-size: 0.9em;
     font-weight: bold;
-    color: #e67e22; /* Orange link */
+    color: #e67e22; 
 }
 
-/* --- Sidebar Styling --- */
+
 #sidebar {
     padding: 20px;
     background-color: #ffffff;
@@ -176,32 +176,253 @@ article a {
 }
 
 #sidebar h3 {
-    color: #e67e22; /* Orange sidebar heading */
+    color: #e67e22; 
     border-bottom: 2px solid #e9ecef;
     padding-bottom: 10px;
     margin-top: 0;
 }
 
-/* Call to Action Box in Sidebar */
+
 .cta-box {
     padding: 25px;
-    background-color: #f7e6ff; /* New: Very light purple callout box */
+    background-color: #f7e6ff; 
     border: 1px solid #d8bfd8;
     border-radius: 8px;
     text-align: center;
 }
 
 .cta-box h4 {
-    color: #9b59b6; /* Purple */
+    color: #9b59b6; 
     margin-top: 0;
 }
 
 .cta-box button {
     width: 90%;
     padding: 10px;
-    background-color: #9b59b6; /* Purple button */
+    background-color: #9b59b6; 
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold
+
+}
+
+.page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.summary-text {
+    font-style: italic;
+    color: #607d8b;
+}
+
+.essay-tip h3 {
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.tip-card {
+  
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #e67e22; 
+}
+
+.tip-card h4 {
+    color: #9b59b6; 
+    margin-top: 0;
+}
+/* --- Additional CSS for consistent internal pages --- */
+.page-intro {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.summary-text {
+    font-style: italic;
+    color: #607d8b;
+}
+
+.testing-tip h3 { /* Using the general section style */
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.tip-card {
+    /* Uses the same style as the articles on the home page for consistency */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #e67e22; /* Uses your Orange accent color */
+}
+
+.tip-card h4 {
+    color: #9b59b6; /* Uses your Purple primary heading color */
+    margin-top: 0;
+}
+/* --- Styling for the Contact Form --- */
+.contact-form-container {
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.styled-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't widen the elements */
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #e67e22; /* Orange submit button */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #c0392b; /* Darker red-orange on hover */
+}
+
+/* --- Styling for Sidebar Contact Info --- */
+.contact-info-card {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 3px solid #1abc9c; /* Teal accent */
+    border-radius: 4px;
+}
+
+.contact-info-card h4 {
+    color: #9b59b6;
+    margin-top: 0;
+}
+
+.sidebar-link-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #9b59b6; /* Purple button */
+    color: white !important; /* Override default link color */
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin-top: 15px;
+}
+
+.sidebar-link-button:hover {
+    background-color: #8e44ad;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Success - Privacy Policy</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>🎓 College Admission Success</h1>
+        <p>Your essential guide to navigating the application process.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="essays.html">Essay Tips</a></li>
+                <li><a href="testing.html">SAT/ACT Prep</a></li>
+                <li><a href="deadlines.html">Deadlines & Checklist</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <div id="content-wrapper" class="single-column-layout"> 
+        
+            <div id="primary-content"> 
+
+                <section class="page-intro">
+                    <h2>🔒 Privacy Policy</h2>
+                    <p class="summary-text">Last Updated: November 9, 2025</p>
+                </section>
+                
+                <hr>
+
+                <section class="policy-section">
+                    <h3>1. Information We Collect</h3>
+                    <p>We collect information primarily to provide and improve our services to you. The types of personal information we may collect include:</p>
+                    <ul>
+                        <li>**Personal Identification Information:** Name and email address (when you sign up for the newsletter or contact us).</li>
+                        <li>**Usage Data:** Information about how you access and use the service (e.g., pages visited, time spent, referral sources). This is often collected via cookies and analytics tools (like Google Analytics).</li>
+                    </ul>
+                </section>
+
+                <section class="policy-section">
+                    <h3>2. How We Use Your Information</h3>
+                    <p>Your data is used for the following purposes:</p>
+                    <ul>
+                        <li>To send you our newsletter, updates, and college admissions tips (if you opt-in).</li>
+                        <li>To respond to your inquiries or requests sent via the Contact Us form.</li>
+                        <li>To monitor and analyze the usage of our website to improve user experience and content.</li>
+                        <li>To prevent and address technical issues.</li>
+                    </ul>
+                </section>
+
+                <section class="policy-section">
+                    <h3>3. Data Security and Sharing</h3>
+                    <p>The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+                    <p>We do not sell, rent, or trade your Personal Data to third parties. We may share data with service providers (like email marketing platforms or website hosting) only as necessary to perform functions on our behalf.</p>
+                </section>
+
+                <section class="policy-section">
+                    <h3>4. Children's Privacy</h3>
+                    <p>Our service does not address anyone under the age of 13 ("Children"). We
